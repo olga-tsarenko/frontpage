@@ -1,0 +1,34 @@
+footer{
+    .footer-menu{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        padding: 98px 0 35px ;
+        li{
+            flex-grow: 1;
+        }
+        .fa-plus{
+            display: none;
+        }
+    }
+    .brand-logo{
+        border-top: 2px solid #cdcdcd;
+        border-bottom: 2px solid #cdcdcd;
+        padding: 24px 0 18px;
+        .phones{
+            @include clearfix;
+            ul{
+                padding-bottom: 11px;
+            }
+        }
+    }
+    .copywright{
+        @include clearfix;
+        padding: 7px 0 27px;
+        p{
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+body {
+    background: #eeeeee;
+}
+
+.button-question {
+    a {
+        color: #1e824c;
+    }
+}
+
+header {
+    background: white;
+    .navbar-default {
+        background-color: inherit;
+        border: none;
+    }
+    .dropdown-menu{
+        color: #373737;
+
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #696969;
+}
+
+.main-frontpage {
+    .main-product {
+        .product-inner {
+            h2 {
+                background: white;
+                color: #373737;
+            }
+            .part, .block-title-bottle, .block-title-automatic {
+                h2 {
+                    background-color: inherit;
+                    color: #ffffff;
+                }
+            }
+        }
+        .partners-delivery-block, .about-us-block {
+            h2 {
+                color: white;
+            }
+        }
+    }
+    .part2, .part3, .part1 {
+        color: #ffffff;
+    }
+
+}
+
+.wrap-blog {
+    .blog-container {
+        p, time {
+            color: #000000;
+        }
+    }
+    .link-blog {
+        color: #1e824c;
+    }
+}
+
+.social-wrap {
+    p {
+        color: #ffffff;
+    }
+}
+
+footer {
+    .footer-menu {
+        a {
+            color: #373737;
+        }
+        ul {
+            li {
+                a {
+                    color: #747474;
+                }
+            }
+        }
+    }
+    .copywright {
+        color: #9c9a9a;
+    }
+}

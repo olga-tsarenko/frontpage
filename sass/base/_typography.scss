@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Myriad Pro", sans-serif;
+    src: url('../fonts/MyriadPro-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PT Sans", sans-serif;
+    src: url('../fonts/PT Sans (Regular).otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.phones, .phones-hidden {
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    span {
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+body {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.button-question {
+
+    a {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
+
+header {
+    .navbar {
+        ul {
+            li {
+                a {
+                    font-size: 13px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .dropdown-menu{
+        h2{
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            line-height: 22px;
+        }
+    }
+}
+
+.main-frontpage {
+    h2 {
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .partners-delivery-block, .about-us-block {
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+    .part2, .part3 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .part, .block-title-bottle, .block-title-automatic {
+        h2{
+            font-size: 19px;
+            font-family: "PT Sans", sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.wrap-blog {
+    .blog-container {
+        time {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        li {
+            font-family: "Open Sans", sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 18px;
+
+        }
+    }
+
+    .exerpt {
+        .button-more {
+            font-size: 12px;
+        }
+
+    }
+    .link-blog {
+        font-size: 14px;
+        font-weight: 400;
+        a {
+            text-transform: uppercase;
+
+        }
+    }
+}
+
+.social-wrap {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer {
+    .footer-menu {
+        li {
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+        }
+    }
+    .copywright {
+        p {
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+    }
+}
