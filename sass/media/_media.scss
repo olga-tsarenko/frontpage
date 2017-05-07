@@ -464,9 +464,8 @@
         .block-header {
             @include clearfix;
 
-            .collapse.in {
-                background: inherit;
-                ul {
+                ul.nav.navbar-nav {
+                    background: inherit;
                     margin: 10px 5px;
                     flex-direction: column;
                     li {
@@ -487,7 +486,7 @@
                         }
                     }
                 }
-            }
+
         }
         padding: 0 15px;
         .block-header {
@@ -849,7 +848,7 @@
             display: -ms-flexbox;
             display: -webkit-flex;
             display: flex;
-            flex-flow: row;
+            flex-flow: row wrap;
             .brand-logo {
                 width: 60%;
             }
@@ -858,11 +857,12 @@
         .navbar-collapse {
             border-top: none;
         }
-        .collapse.in {
-            background: inherit;
-            ul {
+
+
+            ul.nav.navbar-nav {
                 margin: 10px 5px 0 0;
                 flex-direction: column;
+                background: inherit;
                 li {
                     text-align: left;
                     @include clearfix;
@@ -877,7 +877,7 @@
                         float: none;
                     }
                 }
-            }
+
         }
         .navbar ul li .dropdown-menu {
             padding: 10px 0;
@@ -905,7 +905,7 @@
                 }
             }
             .navbar {
-                width: 40%;
+                width: 100%;
                 .navbar-header {
                     margin-top: 0;
                     .navbar-toggle {
@@ -1272,13 +1272,7 @@
                     }
                 }
             }
-            .phones {
-                a {
-                    p {
-                        margin-top: 8px;
-                    }
-                }
-            }
+
         }
         .copywright {
             text-align: center;
